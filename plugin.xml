@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="cordova-instagram-plugin"
+  id="cordova-plugin-salesfloor-instagram"
   version="0.5.2">
 
   <name>Instagram</name>
@@ -11,8 +11,7 @@
   <license>MIT</license>
 
   <dependency
-    id="com.verso.cordova.clipboard"
-    url="https://github.com/VersoSolutions/CordovaClipboard.git">
+    id="cordova-clipboard">
   </dependency>
 
   <js-module src="www/CDVInstagramPlugin.js" name="InstagramPlugin">
